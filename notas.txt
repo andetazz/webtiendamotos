@@ -1,3 +1,29 @@
+*deplgar el proyecto en render
+-------------------------------
+"se crea un archivo en la raiz del proyecto"
+procfile 
+        web: gunicorn run:app
+-------
+pip install gunicorn
+"instala el archivo nuevo en visual estudio"
+pip freeze > requirements.txt
+"actualiza todos las librerias del proyecto"
+----
+"luego nos dirigimos a la pagina web render creamos el usuario
+https://render.com/
+"vamos"
+new
+web service
+"en el campo Start command colocamos el codigo"
+gunicorn run:app
+free
+deplou web service.
+
+*-------
+desplegar el proyecto pero con MySQL
+investigar sobre FIREBASE.
+-------
+
 https://flet.dev/docs/
 
 desarrollo en Python para dispositivos móviles 
